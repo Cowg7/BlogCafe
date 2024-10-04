@@ -25,27 +25,37 @@
                 </nav>
             </div>
             <div class="texto-header">
-                <h2 class="no-margin">Blog de Cafe con consejos y cursos</h2>
+                <h2 class="no-margin">Blog de Café con consejos y cursos</h2>
                 <p class="no-margin">Aprende de los expertos con las mejores recetas</p>
             </div>
         </div>
     </header>
 
     <div class="contenido-principal contenedor">
-        <main class="blog">
+        <main class="contacto">
             <h2>Contacto</h2>
-            <form action="#" method="POST" class="formulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
-                
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Tu E-mail" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
-                
-                <button type="submit" class="btn btn-primario">Enviar Mensaje</button>
-            </form>
+            <div class="contenido-contacto">
+                <div class="imagen-contacto">
+                    <img src="img/contacto.jpg" alt="imagen contacto">
+                </div>
+                <form action="#" method="POST" class="formulario-contacto">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu E-mail" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                    </div>
+                    <div class="enviar">
+                        <button type="submit" class="btn btn-primario">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
         </main>
     </div>
 
